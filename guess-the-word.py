@@ -7,9 +7,9 @@ def lottery_number_and_get_word():
     word_choice = random.randint(0, len(lines))
     return lines[word_choice].split()
 
-def underscores(lst):
+def underscores(list):
     result = []
-    for word in lst:
+    for word in list:
         underscored_word = "_" * len(word)
         result.append(underscored_word.strip())
     return result
