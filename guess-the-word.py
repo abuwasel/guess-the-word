@@ -34,7 +34,7 @@ while True:
     letter_is_present = any(letter_to_check.lower() in word.lower() for word in word_list)
 
     if letter_is_present == False:
-       print("Sorry, that letter isn't here! try again...")
+       print("Sorry, that letter isn't correct! try again...")
        score = 0 if score == 0 else score - 5
 
     print(underscores_list)
